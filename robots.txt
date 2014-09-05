@@ -1,0 +1,27 @@
+# robots.txt for http://videos.isc/
+
+User-agent: UniversalRobot/1.0
+User-agent: my-Robot
+Disallow: /quellen/dtd/
+
+User-agent: SearchRobot/1.0
+Disallow: /unsinn/
+Disallow: /temp/
+Disallow: /lib/
+Disallow: /MediaElement.js/
+Disallow: /img/
+Disallow: /sys/
+Disallow: /css/
+Disallow: /js/
+Disallow: /bootstrap/
+Disallow: /api/
+Disallow: /boot/
+Disallow: /dialogs/
+Disallow: /cookies/
+Disallow: /data/
+Disallow: /errors/
+Disallow: /curl/
+Disallow: /php/
+Disallow: /phpMyAdmin/
+Disallow: /plugins/
+Disallow: /program/
