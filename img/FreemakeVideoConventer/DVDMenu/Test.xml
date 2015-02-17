@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DVDMenuTemplateList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DVDMenuTemplate>
+    <TitleTemplate>Title</TitleTemplate>
+    <BackgroundImagePath>D:\TestDVD\1024_no_nav.jpg</BackgroundImagePath>
+    <MenuStyle>
+      <Name>Simpe Style</Name>
+      <PrevButton Path="D:\TestDVD\left.png" X="10" Y="10">
+        <Stroke Color="#FFFF0000" Width="5">
+          <Rect X="90" Y="490" Width="30" Height="30" />
+        </Stroke>
+      </PrevButton>
+      <NextButton Path="D:\TestDVD\right.png" X="10" Y="10">
+        <Stroke Color="#FFFF0000" Width="5">
+          <Rect X="245" Y="490" Width="30" Height="30" />
+        </Stroke>
+      </NextButton>
+      <PreviewShadow Path="D:\TestDVD\shadow-25-25-175-175.png" PreviewX="25" PreviewY="25" PreviewWidth="150" PreviewHeight="150" />
+      <TitleRect X="0" Y="35" Width="1024" Height="65" Alignment="Center">
+        <Font FontFamily="Tahoma" Color="#88000000" ShadowColor="#141432A0" FontSize="26" Bold="true" Underline="true" Italic="true" />
+      </TitleRect>
+      <PageNumberingRect X="124" Y="490" Width="120" Height="30" Alignment="Center">
+        <Font FontFamily="Courier" Color="#FFFF00FF" ShadowColor="#141432A0" FontSize="20" Bold="true" Underline="false" Italic="false" />
+      </PageNumberingRect>
+      <PreviewStroke Color="#22EA0822" Width="2">
+        <Rect X="0" Y="0" Width="0" Height="0" />
+      </PreviewStroke>
+    </MenuStyle>
+    <BackgroundCropType>0</BackgroundCropType>
+    <Previews>
+      <Preview>
+        <Stroke Color="#FF00FF00" Width="10">
+          <Rect X="240" Y="142" Width="150" Height="150" />
+        </Stroke>
+      </Preview>
+      <Preview>
+        <Stroke Color="#FF0000FF" Width="6">
+          <Rect X="32" Y="246" Width="162" Height="74" />
+        </Stroke>
+      </Preview>
+      <Preview>
+        <Stroke Color="#FFFF0000" Width="6">
+          <Rect X="822" Y="246" Width="162" Height="74" />
+        </Stroke>
+      </Preview>
+    </Previews>
+    <TypeMenu>Thumbnail</TypeMenu>
+  </DVDMenuTemplate>
+  <DVDStyleTemplate>
+    <Name>SimpleStyle</Name>
+    <PrevButton X="0" Y="0">
+      <Stroke Width="0">
+        <Rect X="0" Y="0" Width="0" Height="0" />
+      </Stroke>
+    </PrevButton>
+    <NextButton X="0" Y="0">
+      <Stroke Width="0">
+        <Rect X="0" Y="0" Width="0" Height="0" />
+      </Stroke>
+    </NextButton>
+    <PreviewShadow PreviewX="0" PreviewY="0" PreviewWidth="0" PreviewHeight="0" />
+    <TitleRect X="0" Y="0" Width="0" Height="0">
+      <Font FontSize="0" Bold="false" Underline="false" Italic="false" />
+    </TitleRect>
+    <PageNumberingRect X="0" Y="0" Width="0" Height="0">
+      <Font FontSize="0" Bold="false" Underline="false" Italic="false" />
+    </PageNumberingRect>
+    <PreviewStroke Width="0">
+      <Rect X="0" Y="0" Width="0" Height="0" />
+    </PreviewStroke>
+  </DVDStyleTemplate>
+</DVDMenuTemplateList>
