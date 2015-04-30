@@ -2,7 +2,7 @@
 title: Videofy
 email: 
 description: 
-baseurl: "/video.isc" # the subpath of your site, e.g. /blog/
-url: "http://isc-host.github.io" # the base hostname & protocol for your site
+baseurl: "video.isc" # the subpath of your site, e.g. /blog/
+url: "http://isc-host.github.io/" # the base hostname & protocol for your site
 files_url: http://isc-host.github.io/video.isc/assets
 repository: https://github.com/iSC-Host/video.isc
