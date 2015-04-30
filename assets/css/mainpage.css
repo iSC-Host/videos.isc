@@ -1,0 +1,9 @@
+#overview ul {
+	color: #fefefe;
+	margin: 0 0 0 20px;
+}
+#overview ul li {
+	list-style-type: square;
+	padding: 2px 0 0 5px;
+	line-height: 140%;
+}
