@@ -6,31 +6,40 @@
     <meta name="geo.country" content="US">
 
   <!-- TITLE -->
-    <title>iSC Networks Videos</title>
+    <title>{{ page.title }}</title>
 
   <!-- FAVICON -->
     <link rel="shortcut icon" href="img/favicons/favicon.ico"><!-- META -->
 
   <!-- INFO(S) -->
     <meta name="title" content="iSC Networks Videos">
-    <meta name="description" content="View new music videos, movies, trailers and more on iSC.net Videos.">
+    <meta name="description" content="{{ site.description }}">
     <meta name="keywords" content="iSC Networks Videos, video.isc, video portal, music">
+
+  <!-- KEYWORDS -->
+    <meta name="keywords" lang="en" content="">
+    <meta name="keywords" lang="de" content="">
+
+  <!-- CACHE -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /> <!-- No cache, no saving for robots and browsers. -->
+    <meta http-equiv="Pragma" content="no-cache" /> <!-- No proxy server cache -->
+    <meta http-equiv="Expires" content="0" /> <!-- No expire date used. -->
 
   <!-- LINKS -->
     <link rel="canonical" href="http://videos.isc/">
     <link rel="alternate" media="handheld" href="http://m.videos.isc/">
     <link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.videos.isc/">
-    <link rel="shortlink" href="http://videos.isc/">
-    <link rel="alternate" type="android-app://networks.videos.android.isc/http/videos.isc/home">
-    <link type="text/plain" rel="author" href="content/doc/txt/authors.txt">
+    <link rel="shortlink" href="http://vid.eo">
+    <link rel="alternate" type="android-app://isc.videofy.android/http/videos.isc/home">
+    <link type="text/plain" rel="author" href="authors.txt">
 
   <!-- STYLES -->
     <!-- Site -->
-      <link href="css/mainpage.css" rel="Stylesheet">
+      <link href="{{ "css/mainpage.css" | prepend: site.baseurl }}">
 
     <!-- Bootstrap -->
-      <link href="design/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-      <link href="design/bootstrap/css/sticky-footer.css" rel="stylesheet">
+      <link href="{{ "design/bootstrap/css/bootstrap.min.css" | prepend: site.baseurl }}">
+      <link href="{{ "design/bootstrap/css/sticky-footer.css" | prepend: site.baseurl }}">
 
     <!-- jQuery -->
       <link type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/ui-darkness/jquery-ui.css" rel="stylesheet">
