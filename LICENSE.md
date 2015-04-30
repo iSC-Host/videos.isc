@@ -10,7 +10,7 @@ You may not,
   Nor may you transmit it or store it in any other website or other form of electronic retrieval system.
 
 
-### Owner Adress
+### Owner Address
 
     Videofy (iSC Networks Videos)
     Munich, Bavaria, Germany
