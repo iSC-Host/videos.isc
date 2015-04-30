@@ -4,5 +4,5 @@ email:
 description: View new music videos, movies, trailers and more on iSC.net Videos.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://isc-host.github.io/" # the base hostname & protocol for your site
-files_url: http://isc-host.github.io/video.isc/assets
+files_url: http://isc-host.github.io/video.isc/assets/
 repository: https://github.com/iSC-Host/video.isc
