@@ -1,6 +1,9 @@
 # Site settings
 title: Videofy
-email: 
+company: iSC Networks LLC.
+info_email: info@videofy.isc
+contact_email: contact@videofy.isc
+dev_email: dev@videofy.isc
 description: View new music videos, movies, trailers and more on iSC.net Videos.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://isc-host.github.io/" # the base hostname & protocol for your site
