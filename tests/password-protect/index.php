@@ -10,10 +10,10 @@
 /* but please leave this header intact, thanks                          */
 /************************************************************************/
 ##########################################################################
-$password = "admin";  // Modify Password to suit for access, Max 10 Char.
+$password = "example";  // Modify Password to suit for access, Max 10 Char.
 ##########################################################################
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE html>
 <html>
 <head>
 <title>Simple Password Protect - PHP PasswordProtect</title>
