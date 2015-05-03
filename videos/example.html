@@ -21,7 +21,7 @@ video_id: 0
     <meta name="geo.country" content="US">
 
   <!-- FAVICON -->
-    <link rel="icon" href="../assets/images/favicons/favicon.ico">
+    <link rel="icon" href="{{ "images/favicons/favicon.ico" | prepend: site.files_url }}">
 
   <!-- INFO(S) -->
     <link rel="author" href="humans.txt" />
@@ -71,7 +71,7 @@ cookieDisable: '.comments'
 
 <!-- Bootstrap -->
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js">
+    <script src="{{ "assets/js/bugs/ie10-viewport-bug-workaround.js" | prepend: site.url }}">
 
   </body>
 </html>
