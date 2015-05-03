@@ -1,0 +1,16 @@
+# Rewrite function
+RewriteEngine On
+
+# Set up mainpage
+DirectoryIndex index.html index.php
+
+# Set up language
+AddLanguage en .html .php
+AddLanguage de .html .php
+
+# Set up cache for robots + browser
+<IfModule mod_headers.c>
+  Header set Cache-Control "no-cache, no-store, must-revalidate"
+  Header set Pragma "no-cache"
+  Header set Expires 0
+</IfModule>
