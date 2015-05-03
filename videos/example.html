@@ -23,10 +23,21 @@ video_id: 0
   <!-- FAVICON -->
     <link rel="icon" href="../assets/images/favicons/favicon.ico">
 
+  <!-- INFO(S) -->
+    <link rel="author" href="humans.txt" />
+    <meta name="description" content="{{ site.description }}">
+    <meta name="language" content="en">
+
+  <!-- LINK -->
+    <link rel="home" href="http://videos.isc">
+    <link rel="index" href="http://videos.isc/videos/">
+    <link rel="canonical" href="{{ "videos/example/" | prepend: site.url }}>
+
 </head>
   <body>
 
 <h1>{{ page.title }}</h1>
+
 <?php include "../data/example/count.php"; ?>
 
 <!-- FOOTER -->
