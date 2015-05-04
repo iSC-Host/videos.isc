@@ -9,8 +9,8 @@ dev_email: dev@videofy.isc
 
 description: View new music videos, movies, trailers and more on iSC.net Videos.
 
-baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://isc-host.github.io/videos.isc/" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
 files_url: http://isc-host.github.io/videos.isc/assets/
 counter_url: http://isc-host.github.io/videos.isc/data/counter/
 
