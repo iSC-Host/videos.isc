@@ -41,7 +41,6 @@ counter: example/count.php
     <link rel="stylesheet" href="{{ "frameworks/angularjs/ngDialog/css/ngDialog.css" | prepend: site.files_url }}">
     <link rel="stylesheet" href="{{ "frameworks/angularjs/ngDialog/css/ngDialog-theme-default.css" | prepend: site.files_url }}">
     <link rel="stylesheet" href="{{ "frameworks/angularjs/ngDialog/css/ngDialog-theme-flat.css" | prepend: site.files_url }}">
-    <link rel="stylesheet" href="http://likeastore.github.io/ngDialog/css/style.css">
 
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -69,10 +68,7 @@ document.write("&copy; 2013-"+ CurrentYEAR + " <b>{{ site.company }}</b>");
 </div>
 
 
-<div class="buttons">
-	<a href="#" ng-click="open()" class="demo">Demo</a>
-	<a href="https://github.com/likeastore/ngDialog#api" class="docs">★ Docs</a>
-</div>
+<a href="#" ng-click="open()" id="firstDialog">Demo</a>
 
 
 <!-- SCRIPTS -->
