@@ -38,9 +38,15 @@ counter: example/count.php
 
   <!-- ANGULAR JS -->
     <!-- ngDialog -->
-    <link rel="stylesheet" href="{{ "frameworks/angularjs/ngDialog/css/ngDialog.css" | prepend: site.files_url }}">
-    <link rel="stylesheet" href="{{ "frameworks/angularjs/ngDialog/css/ngDialog-theme-default.css" | prepend: site.files_url }}">
-    <link rel="stylesheet" href="{{ "frameworks/angularjs/ngDialog/css/ngDialog-theme-flat.css" | prepend: site.files_url }}">
+        <!-- Stylesheets -->
+    		<link rel="stylesheet" href="{{ "frameworks/angularjs/ngDialog/css/ngDialog.css" | prepend: site.files_url }}">
+    		<link rel="stylesheet" href="{{ "frameworks/angularjs/ngDialog/css/ngDialog-theme-default.css" | prepend: site.files_url }}">
+    		<link rel="stylesheet" href="{{ "frameworks/angularjs/ngDialog/css/ngDialog-theme-flat.css" | prepend: site.files_url }}">
+	<!-- Scripts -->
+    		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.1/angular.min.js"></script>
+    		<script>window.angular || document.write('<script src="assets/frameworks/bower/angular/angular.min.js">\x3C/script>')</script>
+    		<script src="{{ "frameworks/angularjs/ngDialog/js/ngDialog.js" | prepend: site.files_url }}"></script>
+    		<script src="{{ "frameworks/angularjs/ngDialog/js/ngDialog.min.js" | prepend: site.files_url }}"></script>
 
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -87,12 +93,6 @@ cookieDisable: '.comments'
 });
 </script>
 
-<!-- AngluarJS ngDialog Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.1/angular.min.js"></script>
-    <script>window.angular || document.write('<script src="assets/frameworks/bower/angular/angular.min.js">\x3C/script>')</script>
-    <script src="{{ "frameworks/angularjs/ngDialog/js/ngDialog.js" | prepend: site.files_url }}"></script>
-    <script src="{{ "frameworks/angularjs/ngDialog/js/ngDialog.min.js" | prepend: site.files_url }}"></script>
-
 <!-- AngluarJS ngDialog Templates -->
 		<script type="text/ng-template" id="AboutDialog">
 			<div class="ngdialog-message">
@@ -101,7 +101,7 @@ cookieDisable: '.comments'
 				<div class="mt">Module is shipped with both <code>ngDialog</code> service and default directive.</div>
 			</div>
 			<div class="ngdialog-buttons mt">
-				<button type="button" class="ngdialog-button ngdialog-button-primary" href="about/#team">Team ►</button>
+				<button type="button" class="ngdialog-button ngdialog-button-primary" href="about.html">Team ►</button>
 			</div>
 		</script>
 
