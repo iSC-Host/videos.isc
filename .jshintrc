@@ -1,0 +1,12 @@
+{
+	"predef": [
+		"angular"
+	],
+
+	"boss" : false,
+	"browser" : true,
+	"curly" : true,
+	"debug": false,
+	"jquery" : true,
+	"node" : true
+}
