@@ -59,6 +59,12 @@ counter: example/count.php
 
 <?php include "{{ site.counter_url }}{{ page.counter }}"; ?>
 
+
+
+<button type="button" class="ngdialog-button ngdialog-button-primary" ng-dialog="AboutDialog">About</button>
+
+
+
 <!-- FOOTER -->
 <div id="footer" align="center">
 <div class="container">
@@ -72,10 +78,6 @@ document.write("&copy; 2013-"+ CurrentYEAR + " <b>{{ site.company }}</b>");
 </script></p>
 </div>
 </div>
-
-
-<button type="button" class="ngdialog-button ngdialog-button-primary" ng-dialog="AboutDialog">About</button>
-
 
 <!-- SCRIPTS -->
 <!-- COOKIES code -->
