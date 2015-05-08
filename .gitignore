@@ -4,6 +4,13 @@
 # or operating system, you probably want to add a global ignore instead:
 # git config --global core.excludesfile ~/.gitignore_global
 
-_server/
-_site/
-tests/
+.DS_Store
+*.log
+
+_server
+_site
+
+node_modules
+bower_components
+
+tests
