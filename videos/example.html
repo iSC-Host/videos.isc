@@ -88,6 +88,11 @@ cookieDisable: '.comments'
 </script>
 
 <!-- AngluarJS ngDialog -->
+script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.1/angular.min.js"></script>
+    <script>window.angular || document.write('<script src="frameworks/bower_components/angular/angular.min.js">\x3C/script>')</script>
+    <script src="{{ "frameworks/angularjs/ngDialog/js/ngDialog.js" | prepend: site.files_url }}"></script>
+    <script src="{{ "frameworks/angularjs/ngDialog/js/ngDialog.min.js" | prepend: site.files_url }}"></script>
+
 <script type="text/ng-template" id="firstDialog">
 			<div class="ngdialog-message">
 				<h2>Native Angular.js solution</h2>
@@ -122,41 +127,6 @@ cookieDisable: '.comments'
 				<a href="https://github.com/likeastore/ngDialog#ngdialog" class="action-btn read" target="_blank">Read docs</a>
 			</div>
 		</script>
-
-		<script src="http://likeastore.github.io/ngDialog/bower_components/angular/angular.min.js"></script>
-		<script src="{{ "frameworks/angularjs/ngDialog/js/ngDialog.min.js" | prepend: site.files_url }}"></script>
-		<script>
-			var app = angular.module('exampleDialog', ['ngDialog']);
-			app.controller('MainCtrl', function ($scope, ngDialog) {
-				$scope.open = function () {
-					ngDialog.open({
-						template: 'firstDialog',
-						controller: 'FirstDialogCtrl',
-						className: 'ngdialog-theme-default ngdialog-theme-custom'
-					});
-				};
-			});
-			app.controller('FirstDialogCtrl', function ($scope, ngDialog) {
-				$scope.next = function () {
-					ngDialog.close('ngdialog1');
-					ngDialog.open({
-						template: 'secondDialog',
-						className: 'ngdialog-theme-flat ngdialog-theme-custom'
-					});
-				};
-			});
-			app.directive('ngLike', function () {
-				return {
-					restrict: 'E',
-					link: function (scope, elem, attrs) {
-						elem.on('click', function () {
-							window.open(attr.href, 'Share', 'width=600,height=400,resizable=yes');
-						});
-					}
-				};
-			});
-		</script>
-	
 
 <!-- Bootstrap -->
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
