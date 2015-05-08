@@ -98,10 +98,10 @@ cookieDisable: '.comments'
 			<div class="ngdialog-message">
 				<h2>About us</h2>
 				<div>We are a company.</div>
-				<div class="mt">Module is shipped with both <code>ngDialog</code> service and default directive.</div>
 			</div>
 			<div class="ngdialog-buttons mt">
-				<button type="button" class="ngdialog-button ngdialog-button-primary" href="about.html">Team ►</button>
+				<button type="button" class="ngdialog-button ngdialog-button-primary" ng-click="about">Team ►</button>
+				<button type="button" class="ngdialog-button ngdialog-button-primary" ng-click="products">Products ►</button>
 			</div>
 		</script>
 
@@ -115,16 +115,6 @@ cookieDisable: '.comments'
 						controller: 'AboutDialogCtrl',
 						className: 'ngdialog-theme-default ngdialog-theme-custom'
 					});
-				};
-			});
-			app.directive('ngLike', function () {
-				return {
-					restrict: 'E',
-					link: function (scope, elem, attrs) {
-						elem.on('click', function () {
-							window.open(attr.href, 'Share', 'width=600,height=400,resizable=yes');
-						});
-					}
 				};
 			});
 		</script>
