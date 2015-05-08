@@ -67,6 +67,10 @@ document.write("&copy; 2013-"+ CurrentYEAR + " <b>{{ site.company }}</b>");
 </div>
 </div>
 
+
+<a href="#" ng-click="open()" class="demo">Demo</a>
+
+
 <!-- SCRIPTS -->
 <!-- COOKIES code -->
 <script>
@@ -83,13 +87,7 @@ cookieDisable: '.comments'
 });
 </script>
 
-<!-- Bootstrap -->
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="{{ "assets/js/bugs/ie10-viewport-bug-workaround.js" | prepend: site.url }}">
-
-
-<a href="#" ng-click="open()" class="demo">Demo</a>
-
+<!-- AngluarJS ngDialog -->
 <script type="text/ng-template" id="firstDialog">
 			<div class="ngdialog-message">
 				<h2>Native Angular.js solution</h2>
@@ -159,6 +157,10 @@ cookieDisable: '.comments'
 			});
 		</script>
 	
+
+<!-- Bootstrap -->
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="{{ "js/bugs/ie10-viewport-bug-workaround.js" | prepend: site.files_url }}">
 
   </body>
 </html>
