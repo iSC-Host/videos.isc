@@ -1,0 +1,13 @@
+// http://eslint.org/docs/rules
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "strict": 0
+  },
+  "globals": {
+    "angular": true
+  }
+}
