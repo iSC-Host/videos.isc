@@ -108,7 +108,7 @@ cookieDisable: '.comments'
 				<div class="mt">Module is shipped with both <code>ngDialog</code> service and default directive.</div>
 			</div>
 			<div class="ngdialog-buttons mt">
-				<button type="button" class="ngdialog-button ngdialog-button-primary" ng-click="next()">►</button>
+				<button type="button" class="ngdialog-button ngdialog-button-primary" ng-click="next()">Team ►</button>
 			</div>
 		</script>
 
@@ -143,7 +143,7 @@ cookieDisable: '.comments'
 			});
 			app.controller('AboutDialogCtrl', function ($scope, ngDialog) {
 				$scope.next = function () {
-					ngDialog.close('ngdialog1');
+					ngDialog.close('AboutDialog');
 					ngDialog.open({
 						template: 'TeamDialog',
 						className: 'ngdialog-theme-flat ngdialog-theme-custom'
