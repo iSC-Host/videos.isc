@@ -1,7 +1,7 @@
 {
   "name": "Videofy",
   "version": "1.0.0",
-  "homepage": "https://github.com/iSC-Host/videos.isc",
+  "homepage": "https://videos.isc",
   "description": "",
   "main": [
     "index.html"
