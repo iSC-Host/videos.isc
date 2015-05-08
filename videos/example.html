@@ -36,13 +36,15 @@ counter: example/count.php
     <link rel="index" href="http://videos.isc/videos/">
     <link rel="canonical" href="{{ "videos/example/" | prepend: site.url }}">
 
-  <link rel="stylesheet" href="assets/frameworks/angularjs/ngDialog/css/ngDialog.css">
-		<link rel="stylesheet" href="assets/frameworks/angularjs/ngDialog/css/ngDialog-theme-default.css">
-		<link rel="stylesheet" href="assets/frameworks/angularjs/ngDialog/css/ngDialog-theme-flat.css">
+  <!-- ANGULAR JS -->
+    <!-- ngDialog -->
+    <link rel="stylesheet" href="{{ "frameworks/angularjs/ngDialog/css/ngDialog.css" | prepend: site.files_url }}">
+    <link rel="stylesheet" href="{{ "frameworks/angularjs/ngDialog/css/ngDialog-theme-default.css" | prepend: site.files_url }}">
+    <link rel="stylesheet" href="{{ "frameworks/angularjs/ngDialog/css/ngDialog-theme-flat.css" | prepend: site.files_url }}">
 
-		<!--[if lt IE 9]>
-		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 
 </head>
   <body>
@@ -123,8 +125,8 @@ cookieDisable: '.comments'
 			</div>
 		</script>
 
-		<script src="http://likeastore.github.io/ngDialog/bower_components/angular/angular.min.js"></script>
-		<script src="assets/frameworks/angularjs/ngDialog/js/ngDialog.min.js"></script>
+		<script src="{{ "http://likeastore.github.io/ngDialog/bower_components/angular/angular.min.js" | prepend: site.files_url }}"></script>
+		<script src="{{ "assets/frameworks/angularjs/ngDialog/js/ngDialog.min.js" | prepend: site.files_url }}"></script>
 		<script>
 			var app = angular.module('exampleDialog', ['ngDialog']);
 			app.controller('MainCtrl', function ($scope, ngDialog) {
