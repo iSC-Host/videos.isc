@@ -112,7 +112,7 @@ cookieDisable: '.comments'
 			</div>
 		</script>
 
-		<script type="text/ng-template" id="secondDialog">
+		<script type="text/ng-template" id="TeamDialog">
 			<div class="ngdialog-message">
 				<h2>And even more!</h2>
 				<ul class="mt">
@@ -141,11 +141,11 @@ cookieDisable: '.comments'
 					});
 				};
 			});
-			app.controller('FirstDialogCtrl', function ($scope, ngDialog) {
+			app.controller('AboutDialogCtrl', function ($scope, ngDialog) {
 				$scope.next = function () {
 					ngDialog.close('ngdialog1');
 					ngDialog.open({
-						template: 'About2Dialog',
+						template: 'TeamDialog',
 						className: 'ngdialog-theme-flat ngdialog-theme-custom'
 					});
 				};
