@@ -61,8 +61,13 @@ counter: example/count.php
 
 <h1>{{ page.title }}</h1>
 
+<!-- Watch Views Counter -->
 <?php include "{{ site.counter_url }}{{ page.counter }}"; ?>
 
+<!-- LikeBtn.com BEGIN -->
+<span class="likebtn-wrapper" data-identifier="videofy" data-theme="drop" data-lang="en" data-group_identifier="site1" data-show_dislike_label="true" data-counter_zero_show="true"></span>
+<script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
+<!-- LikeBtn.com END -->
 
 
 <button type="button" class="ngdialog-button ngdialog-button-primary" ng-dialog="AboutDialog">About</button>
