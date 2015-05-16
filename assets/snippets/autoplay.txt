@@ -1,0 +1,3 @@
+When autoplay is enabled,
+a suggested video will be
+automatically play next.
