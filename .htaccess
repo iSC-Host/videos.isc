@@ -6,7 +6,6 @@ DirectoryIndex index.html index.php
 
 # Set up language
 AddLanguage en .html .php
-AddLanguage de .html .php
 
 # Set up cache for robots + browser
 <IfModule mod_headers.c>
