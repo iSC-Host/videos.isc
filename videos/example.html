@@ -64,6 +64,14 @@ counter: example/count.php
 
 <h1>{{ page.title }}</h1>
 
+<!-- Video Player -->
+<video id="videoplayer" poster="__/poster.jpg" controls="controls" height="360" width="640">
+	<source id="mp4_src" type="video/mp4" />
+	<source id="webm_src" type="video/webm" />
+	<source id="ogg_src" type="video/ogg" />
+	Your browser does not support HTML5 video.
+</video>
+
 <!-- Watch Views Counter -->
 <?php include "{{ site.counter_url }}{{ page.counter }}"; ?>
 
