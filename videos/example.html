@@ -55,6 +55,8 @@ counter: example/count.php
     		<script src="{{ "frameworks/angularjs/ngDialog/js/ngDialog.js" | prepend: site.files_url }}"></script>
     		<script src="{{ "frameworks/angularjs/ngDialog/js/ngDialog.min.js" | prepend: site.files_url }}"></script>
 
+    		<script src="{{ "frameworks/jquery/videofy/js/Videofy.js" | prepend: site.files_url }}"></script>
+
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -117,7 +119,12 @@ document.write("&copy; 2013-"+ CurrentYEAR + " <b>{{ site.company }}</b>");
 	document.getElementById("ogg_src").src = "___.ogg";
 	document.getElementById("videoplayer").load();
 </script>
-		
+
+<!-- Videofy jQuery Plugin -->
+<script>
+$(Selector).fooBar();
+</script>
+
 <!-- COOKIES code -->
 <script>
 $(document).ready(function () {$.cookieCuttr();
